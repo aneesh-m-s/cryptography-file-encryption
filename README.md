@@ -33,6 +33,7 @@ This project was implemented and tested in a Linux (Ubuntu) environment using Op
 
 The system follows this process:
 
+```
 Input File
     │
     ▼
@@ -44,6 +45,7 @@ Encrypted File (.enc)
     ├── Decrypt using correct password → Original File Restored
     │
     └── Tamper Encrypted File → Decryption Fails
+```
     
 # Installation
 
@@ -86,12 +88,14 @@ error reading input file
 This shows that any modification to the encrypted file breaks decryption, proving tamper detection.
 
 # Project Structure
-file-encryption-project
+```
+file-encryption-project/
 │
 ├── input.txt
 ├── encrypted.enc
 ├── decrypted.txt
 ├── README.md
+```
 
 # Demo Scenario
 1. Encrypt a file using a password
